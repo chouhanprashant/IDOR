@@ -1,19 +1,29 @@
-Step 0 — Create Two Test Users (User A & User B)
-Juice Shop home page open karo → /#/register (ya "Not yet a customer?" pe click karo).
-User A create karo:
-text
-   Email: usera@test.com
-   Password: TestPass@123
-   Security Question: koi bhi answer
-Registration submit karo → account create ho jayega.
-Wapas registration page pe jao aur User B create karo:
-text
-   Email: userb@test.com
-   Password: TestPass@123
-   Security Question: koi bhi answer
-Ab dono accounts ready hain — inhe hum turn-by-turn login karke use karenge.
+### Step 0 — Create Two Test Users (User A & User B)
 
-💡 Tip: Session me dikhane ke liye do alag browsers (ya ek normal + ek incognito) use kar sakte ho taaki dono accounts parallel open rakh sako without repeated logout/login.
+1. Juice Shop home page open karo → `/#/register` (ya **"Not yet a customer?"** pe click karo).
+
+2. **User A** create karo:
+
+```text
+Email: usera@test.com
+Password: TestPass@123
+Security Question: koi bhi answer
+```
+
+3. Registration submit karo → account create ho jayega.
+
+4. Wapas registration page pe jao aur **User B** create karo:
+
+```text
+Email: userb@test.com
+Password: TestPass@123
+Security Question: koi bhi answer
+```
+
+5. Ab dono accounts ready hain — inhe hum turn-by-turn login karke use karenge.
+
+> 💡 **Tip:** Session me dono accounts parallel rakhne ke liye do alag browsers (ya ek normal + ek incognito) use kar sakte ho, taaki baar-baar logout/login na karna pade.
+
 ## Step 1 — Login as User A & Create a Review
 
 1. Juice Shop me **User A** se login karo.
