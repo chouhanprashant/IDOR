@@ -115,27 +115,3 @@ NO
 ```
 
 ---
-
-## 📌 Vulnerability Classification
-
-- **IDOR** — Insecure Direct Object Reference
-- **BOLA** — Broken Object Level Authorization
-- **Impact:** Horizontal Privilege Escalation
-
-## 💡 Key Takeaway (Session me highlight karna)
-
-> **Authentication ≠ Authorization.**
-> Login hona sirf identity prove karta hai — kisi aur ke resource ko modify karne ka permission automatically nahi milta. Backend ko har write operation se pehle **ownership verify** karna zaroori hai (`resource.owner_id === session.user_id`).
-
----
-
-### 🎤 Presentation Tip
-
-Session dete waqt friend ko bolna:
-1. Pehle vulnerability **live demo** karwao (Step 1-5)
-2. Fir **"Why it happens"** diagram dikhao
-3. End me **fix/remediation** discuss karo — isse audience ko complete picture milega (bug + root cause + solution)
-
----
-
-Agar chahiye to iska ek **PDF/PPT version** bhi bana sakta hoon jo session me directly present kiya ja sake — bta dena.
