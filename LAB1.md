@@ -1,27 +1,3 @@
-Bhai, notes already kaafi solid hain — bas thoda polish karke aur presentation-friendly bana deta hoon taaki tera dost session me smoothly explain kar sake. Yeh raha improved version:
-
----
-
-# 🔓 IDOR / BOLA – Cross-User Review Modification (OWASP Juice Shop)
-
-**Lab:** OWASP Juice Shop
-**Vulnerability Type:** Insecure Direct Object Reference (IDOR) / Broken Object Level Authorization (BOLA)
-**OWASP Category:** A01:2021 – Broken Access Control
-
-## 🎯 Objective
-
-Yeh check karna hai ki **User A**, sirf apna review-object ID badal ke, **User B** ke review ko modify kar sakta hai ya nahi — bina uski permission ke.
-
----
-
-## 🛠️ Pre-requisites
-
-- OWASP Juice Shop running (local ya Docker)
-- Burp Suite (Community edition bhi chalega)
-- Do test accounts — **User A** aur **User B**
-
----
-
 ## Step 1 — Login as User A & Create a Review
 
 1. Juice Shop me **User A** se login karo.
